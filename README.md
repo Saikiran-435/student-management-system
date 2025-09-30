@@ -1,6 +1,6 @@
 # Student Management System
 
-A simple web-based Student Management System built using Java, Spring MVC, Hibernate, and Thymeleaf.  
+A simple web-based Student Management System built using Java, Spring MVC, MySql, Hibernate,Maven and Thymeleaf.  
 This project allows basic CRUD operations (Create, Read, Update, Delete) for student records.
 
 ##  Features
@@ -14,6 +14,7 @@ This project allows basic CRUD operations (Create, Read, Update, Delete) for stu
 ##  Technologies Used
 
 - Java
+- Springboot
 - Spring MVC
 - Hibernate (ORM)
 - Thymeleaf (for front-end)
@@ -21,30 +22,15 @@ This project allows basic CRUD operations (Create, Read, Update, Delete) for stu
 - Maven
 - Spring Tool Suite (STS)
 
-##  Project Structure
-src/
-└── main/
-├── java/
-│ └── com.example.student
-│ ├── controller
-│ ├── dao
-│ ├── model
-│ └── service
-└── webapp/
-└── WEB-INF/
-└── views/
-├── list-students.html
-├── student-form.html
-
 
 ##  How to Run the Project
 
 1. Clone this repository  
-2. Open in Spring Tool Suite (STS) or IntelliJ  
+2. Open in Spring Tool Suite (STS)  
 3. Set up MySQL database (e.g., create `student_db`)  
 4. Update `hibernate.cfg.xml` with your DB credentials  
 5. Build and run the application  
-6. Open browser and go to: `http://localhost:8080/student/list`  
+6. Open browser and go to: `http://localhost:8080/students`  
 
 
 
